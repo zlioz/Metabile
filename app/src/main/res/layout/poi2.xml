@@ -26,12 +26,13 @@
         app:srcCompat="@drawable/cristorey"
         tools:layout_editor_absoluteX="70dp"
         tools:layout_editor_absoluteY="50dp" />
+
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="344dp"
-        android:layout_height="228dp"
+        android:layout_width="346dp"
+        android:layout_height="281dp"
         android:text="Para llegar puedes caminar desde el parque principal de Jardín durante una 1 hora, o puedes ir en Tuk-Tuk durante unos 10 minutos llegaras al mirador.&#xA;&#xA;Una vez arriba, podrás apreciar una gran vista panorámica de Jardín y divisar todas las montañas que lo rodean. Arriba, también podrás encontrar un kiosko en el que puedes comer algo o tomar un delicioso café de origen.&#xA;&#xA;Cuando decidas bajar del Mirador de Cristo Rey, tendrás que hacerlo por un sendero muy bonito que atraviesa el bosque de pino, algunos platanales, cafetales, y hasta un río. Este sendero te llevará en unos 30 minutos al centro del pueblo."
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="361dp" />
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="347dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

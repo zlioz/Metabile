@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="414dp"
+        android:layout_height="83dp"
+        android:background="@color/purple_500"
+        android:padding="25dp"
+        android:text="TELEFÉRICO LA GARRUCHA"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="19.5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-2dp" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="337dp"
+        android:layout_height="222dp"
+        android:text="El Teleférico La Garrucha es un transporte autóctono que utilizaban los campesinos para moverse entre el pueblo y sus fincas y también mover con mucho más rápido sus cosechas.&#xA;&#xA;El plan consiste en subir en el teleférico hasta la cima del cerro, disfrutar de la vista y luego bajar de nuevo en La Garrucha o caminar unos 40 minutos por un sendero ecológico que va a las cristalinas aguas de Charco Corazón."
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="312dp"
+        android:layout_height="410dp"
+        app:srcCompat="@drawable/teleferico"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
