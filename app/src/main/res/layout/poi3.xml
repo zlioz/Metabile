@@ -10,23 +10,24 @@
         android:layout_height="83dp"
         android:background="@color/purple_500"
         android:padding="25dp"
-        android:text="TELEFÉRICO LA GARRUCHA"
+        android:text="@string/telef_rico_la_garrucha"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:textSize="19.5dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        android:textSize="19.5sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="-2dp" />
+        tools:layout_editor_absoluteX="-2dp"
+        tools:ignore="MissingConstraints" />
 
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="337dp"
         android:layout_height="222dp"
-        android:text="El Teleférico La Garrucha es un transporte autóctono que utilizaban los campesinos para moverse entre el pueblo y sus fincas y también mover con mucho más rápido sus cosechas.&#xA;&#xA;El plan consiste en subir en el teleférico hasta la cima del cerro, disfrutar de la vista y luego bajar de nuevo en La Garrucha o caminar unos 40 minutos por un sendero ecológico que va a las cristalinas aguas de Charco Corazón."
+        android:text="@string/el_telef_rico_la_garrucha_es_un_transporte_aut_ctono_que_utilizaban_los_campesinos_para_moverse_entre_el_pueblo_y_sus_fincas_y_tambi_n_mover_con_mucho_m_s_r_pido_sus_cosechas_xa_xa_el_plan_consiste_en_subir_en_el_telef_rico_hasta_la_cima_del_cerro_disfrutar_de_la_vista_y_luego_bajar_de_nuevo_en_la_garrucha_o_caminar_unos_40_minutos_por_un_sendero_ecol_gico_que_va_a_las_cristalinas_aguas_de_charco_coraz_n"
         tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="385dp" />
+        tools:layout_editor_absoluteY="385dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -34,6 +35,8 @@
         android:layout_height="410dp"
         app:srcCompat="@drawable/teleferico"
         tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

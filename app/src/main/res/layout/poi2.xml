@@ -10,14 +10,14 @@
         android:layout_height="83dp"
         android:background="@color/purple_500"
         android:padding="25dp"
-        android:text="MIRADOR CRISTO REY"
+        android:text="@string/mirador_cristo_rey"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        android:textSize="20sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="-2dp" />
+        tools:layout_editor_absoluteX="-2dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -25,14 +25,17 @@
         android:layout_height="324dp"
         app:srcCompat="@drawable/cristorey"
         tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="50dp" />
+        tools:layout_editor_absoluteY="50dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="346dp"
         android:layout_height="281dp"
-        android:text="Para llegar puedes caminar desde el parque principal de Jardín durante una 1 hora, o puedes ir en Tuk-Tuk durante unos 10 minutos llegaras al mirador.&#xA;&#xA;Una vez arriba, podrás apreciar una gran vista panorámica de Jardín y divisar todas las montañas que lo rodean. Arriba, también podrás encontrar un kiosko en el que puedes comer algo o tomar un delicioso café de origen.&#xA;&#xA;Cuando decidas bajar del Mirador de Cristo Rey, tendrás que hacerlo por un sendero muy bonito que atraviesa el bosque de pino, algunos platanales, cafetales, y hasta un río. Este sendero te llevará en unos 30 minutos al centro del pueblo."
+        android:text="@string/para_llegar_puedes_caminar_desde_el_parque_principal_de_jard_n_durante_una_1_hora_o_puedes_ir_en_tuk_tuk_durante_unos_10_minutos_llegaras_al_mirador_xa_xa_una_vez_arriba_podr_s_apreciar_una_gran_vista_panor_mica_de_jard_n_y_divisar_todas_las_monta_as_que_lo_rodean_arriba_tambi_n_podr_s_encontrar_un_kiosko_en_el_que_puedes_comer_algo_o_tomar_un_delicioso_caf_de_origen_xa_xa_cuando_decidas_bajar_del_mirador_de_cristo_rey_tendr_s_que_hacerlo_por_un_sendero_muy_bonito_que_atraviesa_el_bosque_de_pino_algunos_platanales_cafetales_y_hasta_un_r_o_este_sendero_te_llevar_en_unos_30_minutos_al_centro_del_pueblo"
         tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="347dp" />
+        tools:layout_editor_absoluteY="347dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
