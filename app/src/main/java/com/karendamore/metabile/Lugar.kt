@@ -1,4 +1,10 @@
 package com.karendamore.metabile
 
-class Lugar {
-}
+
+data class Lugar(
+    val name: String,
+    val description: String,
+    val puntuacion: Double
+)
+
+

@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Metabile">
         <activity
+            android:name=".SitiosTuristicosListActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
