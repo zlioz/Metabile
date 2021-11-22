@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 
 class LugaresAdapter(private val lugaresList: ArrayList<Lugar>) : RecyclerView.Adapter<LugaresAdapter.LugaresViewHolder>() {
 //aqui se defino cual es el layout
@@ -33,7 +34,8 @@ class LugaresAdapter(private val lugaresList: ArrayList<Lugar>) : RecyclerView.A
         fun bind(lugar: Lugar){
             nameTextureView.text=lugar.name
             descriptionTextView.text=lugar.description
-            //falta la imagen
+            puntuacionTextView.text=lugar.puntuacion
+            Picasso.get().load(lugar.urlimagen).into(pictureImageView);
 
         }
     }
