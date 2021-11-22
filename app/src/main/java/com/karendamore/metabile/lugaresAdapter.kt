@@ -6,8 +6,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 
-class LugaresAdapter(private val lugaresList: ArrayList<Lugar>) : RecyclerView.Adapter<LugaresAdapter.LugaresViewHolder>() {
+class LugaresAdapter(private val lugaresList: ArrayList<LugarItem>) : RecyclerView.Adapter<LugaresAdapter.LugaresViewHolder>() {
 //aqui se defino cual es el layout
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LugaresViewHolder {
         val view= LayoutInflater.from(parent.context).inflate(R.layout.card_view_lugar_item,parent,false)
@@ -30,10 +31,11 @@ class LugaresAdapter(private val lugaresList: ArrayList<Lugar>) : RecyclerView.A
         private var puntuacionTextView: TextView=itemView.findViewById(R.id.puntuacion_text_view)
         private var pictureImageView: ImageView=itemView.findViewById(R.id.picture_image_view)
 
-        fun bind(lugar: Lugar){
+        fun bind(lugar: LugarItem){
             nameTextureView.text=lugar.name
             descriptionTextView.text=lugar.description
-            //falta la imagen
+            puntuacionTextView.text=lugar.puntuacion
+            Picasso.get().load(lugar.urlimagen).into(pictureImageView)
 
         }
     }

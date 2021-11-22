@@ -9,4 +9,8 @@
     <string name="temperatura2">26°C</string>
     <string name="sitios">Sitios de Interés:</string>
     <string name="sitios2">Basílica de la Inmaculada Concepción, Mirador Cristo Rey, Teleférico la Garrucha, Cueva del Esplendor, Cueva de los Guácharos, Las Trucheras, Otros sitios de comida: Macanas Jardín, Dulces de Jardín.</string>
+    <string name="bas_lica_menor">BASÍLICA MENOR</string>
+    <string name="la_bas_lica_menor_de_la_inmaculada_concepci_n_es_una_de_las_iglesias_m_s_lindas_de_antioquia_est_construida_en_piedra_labrada_a_mano_su_estilo_es_neog_tico_y_ha_sido_decorada_en_su_interior_con_arcos_recubiertos_en_oro">La Basílica Menor de La Inmaculada Concepción es una de las iglesias más lindas de Antioquia, está construida en piedra labrada a mano, su estilo es neogótico y ha sido decorada en su interior con arcos recubiertos en oro.</string>
+    <string name="puntuaci_n">Puntuación:</string>
+    <string name="todo">TODO</string>
 </resources>
