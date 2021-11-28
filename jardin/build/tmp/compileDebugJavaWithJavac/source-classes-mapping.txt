@@ -1,0 +1,10 @@
+com/example/jardin/databinding/ActivityMainBinding.java
+ com.example.jardin.databinding.ActivityMainBinding
+com/example/jardin/BuildConfig.java
+ com.example.jardin.BuildConfig
+com/example/jardin/databinding/FragmentDetailBinding.java
+ com.example.jardin.databinding.FragmentDetailBinding
+com/example/jardin/databinding/FragmentListBinding.java
+ com.example.jardin.databinding.FragmentListBinding
+com/example/jardin/databinding/CardViewLugarItemBinding.java
+ com.example.jardin.databinding.CardViewLugarItemBinding
