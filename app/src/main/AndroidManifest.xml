@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Metabile">
         <activity
-            android:name=".SitiosTuristicosListActivity"
+            android:name=".list.SitiosTuristicosListActivity"
             android:exported="true">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -21,8 +21,8 @@
         </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="true"/>
+            android:name=".detalle.DetalleActivity"
+            android:exported="false"/>
 
     </application>
 

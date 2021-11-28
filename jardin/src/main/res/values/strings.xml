@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Metabile</string>
+    <string name="jardin">Jardín (Antioquia)</string>
+    <string name="informacion_jardin">Información General</string>
+    <string name="descripcion_jardin">El municipio de Jardín se encuentra en el Suroeste del Departamento de Antioquia, está ubicado a 134 kilómetros de Medellín (aproximadamente tres horas)., es uno de los pueblos patrimonio más lindos de Colombia, un pueblito paisa muy colorido y acogedor, reconocido por su civismo, casas, balcones, guayacanes, rosales, atardeceres, aves, trucheras, cascadas y por el carácter amable y acogedor de sus habitantes.</string>
+    <string name="coordenadas">Ubicación:</string>
+    <string name="coordenadas2">5°35′54″N 75°49′11″O / 5.5983333333333, -75.819722222222</string>
+    <string name="temperatura">Temperatura:</string>
+    <string name="temperatura2">26°C</string>
+    <string name="sitios">Otros sitios de Interés:</string>
+    <string name="sitios2">Basílica de la Inmaculada Concepción, Mirador Cristo Rey, Teleférico la Garrucha, Cueva del Esplendor, Cueva de los Guácharos, Las Trucheras, Otros sitios de comida: Macanas Jardín, Dulces de Jardín.</string>
+    <string name="bas_lica_menor">BASÍLICA MENOR</string>
+    <string name="la_bas_lica_menor_de_la_inmaculada_concepci_n_es_una_de_las_iglesias_m_s_lindas_de_antioquia_est_construida_en_piedra_labrada_a_mano_su_estilo_es_neog_tico_y_ha_sido_decorada_en_su_interior_con_arcos_recubiertos_en_oro">La Basílica Menor de La Inmaculada Concepción es una de las iglesias más lindas de Antioquia, está construida en piedra labrada a mano, su estilo es neogótico y ha sido decorada en su interior con arcos recubiertos en oro.</string>
+    <string name="puntuaci_n">Puntuación:</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
