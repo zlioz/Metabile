@@ -10,7 +10,7 @@ import com.squareup.picasso.Picasso
 class DetalleActivity : AppCompatActivity() {
     private lateinit var detalleBinding: ActivityDetalleBinding
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState)
         detalleBinding = ActivityDetalleBinding.inflate(layoutInflater)
         setContentView(detalleBinding.root)
 
@@ -25,8 +25,5 @@ class DetalleActivity : AppCompatActivity() {
             Picasso.get().load(lugar.urlimagen).into(pictureImageView)
 
         }
-
-
-
     }
 }

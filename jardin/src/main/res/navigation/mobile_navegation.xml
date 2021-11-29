@@ -18,5 +18,9 @@
         android:id="@+id/detailFragment"
         android:name="com.example.jardin.detail.DetailFragment"
         android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail" />
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="lugar"
+            app:argType="com.example.jardin.model.LugarItem" />
+    </fragment>
 </navigation>

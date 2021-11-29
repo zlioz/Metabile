@@ -6,6 +6,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.jardin.R
 import com.example.jardin.databinding.FragmentDetailBinding
 import com.example.jardin.databinding.FragmentListBinding
@@ -32,19 +34,27 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        listLugares= LoadMockLugaresFromJSON()
+        listLugares = loadMockLugaresFromJson()
         lugaresAdapter= LugaresAdapter(listLugares, onItemClicked = {onLugaresClicked(it)})
+
+        listBinding.lugaresRecyclerView.apply {
+            layoutManager = LinearLayoutManager(context)
+            adapter = lugaresAdapter
+            setHasFixedSize(false)
+        }
     }
 
-    private fun LoadMockLugaresFromJSON(): ArrayList<LugarItem> {
+    private fun onLugaresClicked (lugar: LugarItem) {
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(lugar=lugar))
+
+    }
+    private fun loadMockLugaresFromJson(): ArrayList<LugarItem> {
         val lugaresString: String =
             context?.assets?.open("lugares.json")?.bufferedReader().use { it!!.readText() }
         val gson = Gson()
         return gson.fromJson(lugaresString, Lugar::class.java)
     }
 
-    private fun onLugaresClicked(lugar: LugarItem) {
 
-    }
 
 }
