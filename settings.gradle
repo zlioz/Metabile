@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Metabile"
 include ':app'
+include ':jardin'
