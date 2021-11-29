@@ -45,8 +45,8 @@ class ListFragment : Fragment() {
     }
 
     private fun onLugaresClicked (lugar: LugarItem) {
-        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(lugar=lugar))
-
+        //findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(lugar=lugar))
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToSettingsFragment())
     }
     private fun loadMockLugaresFromJson(): ArrayList<LugarItem> {
         val lugaresString: String =

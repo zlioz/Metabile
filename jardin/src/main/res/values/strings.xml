@@ -13,6 +13,14 @@
     <string name="la_bas_lica_menor_de_la_inmaculada_concepci_n_es_una_de_las_iglesias_m_s_lindas_de_antioquia_est_construida_en_piedra_labrada_a_mano_su_estilo_es_neog_tico_y_ha_sido_decorada_en_su_interior_con_arcos_recubiertos_en_oro">La Basílica Menor de La Inmaculada Concepción es una de las iglesias más lindas de Antioquia, está construida en piedra labrada a mano, su estilo es neogótico y ha sido decorada en su interior con arcos recubiertos en oro.</string>
     <string name="puntuaci_n">Puntuación:</string>
     <string name="todo">TODO</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Sync Preferences -->
+    <string name="notifications">Notificaciones</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_list">Lista</string>
+    <string name="title_detail">Detalles</string>
+    <string name="title_preference">Configuración</string>
 </resources>

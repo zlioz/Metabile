@@ -3,16 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navegation"
-    app:startDestination="@id/listFragment">
+    app:startDestination="@id/navigation_list">
 
     <fragment
-        android:id="@+id/listFragment"
+        android:id="@+id/navigation_list"
         android:name="com.example.jardin.list.ListFragment"
         android:label="fragment_list"
         tools:layout="@layout/fragment_list" >
         <action
             android:id="@+id/action_listFragment_to_detailFragment"
             app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_settingsFragment"
+            app:destination="@id/navigation_preference" />
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
@@ -23,4 +26,8 @@
             android:name="lugar"
             app:argType="com.example.jardin.model.LugarItem" />
     </fragment>
+    <fragment
+        android:id="@+id/navigation_preference"
+        android:name="com.example.jardin.preference.SettingsFragment"
+        android:label="SettingsFragment" />
 </navigation>
