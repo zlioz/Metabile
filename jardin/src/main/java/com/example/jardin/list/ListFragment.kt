@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.jardin.R
 import com.example.jardin.databinding.FragmentDetailBinding
 import com.example.jardin.databinding.FragmentListBinding
+import com.example.jardin.main.MainActivity
 import com.example.jardin.model.Lugar
 import com.example.jardin.model.LugarItem
 import com.google.gson.Gson
@@ -32,8 +33,10 @@ class ListFragment : Fragment() {
         return listBinding.root
     }
 
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as MainActivity?)?.hideIcon()
         listLugares = loadMockLugaresFromJson()
         lugaresAdapter= LugaresAdapter(listLugares, onItemClicked = {onLugaresClicked(it)})
 
