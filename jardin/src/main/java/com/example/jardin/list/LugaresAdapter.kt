@@ -15,6 +15,7 @@ class LugaresAdapter(
     private val lugaresList: ArrayList<LugarItem>,
     private val onItemClicked: (LugarItem) -> Unit) : RecyclerView.Adapter<LugaresAdapter.LugaresViewHolder>() {
 //aqui se defino cual es el layout
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LugaresViewHolder {
         val view= LayoutInflater.from(parent.context).inflate(R.layout.card_view_lugar_item,parent,false)
         return LugaresViewHolder(view)
@@ -26,9 +27,16 @@ class LugaresAdapter(
         holder.bind(lugar)
     }
 
-    override fun getItemCount(): Int {
-        return lugaresList.size
+    override fun getItemCount(): Int =lugaresList.size
+
+
+    fun appendItems(newItems: ArrayList<LugarItem>) {
+        lugaresList.clear()
+        lugaresList.addAll(newItems)
+        notifyDataSetChanged()
     }
+
+
 
     class LugaresViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
 
