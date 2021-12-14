@@ -1,6 +1,5 @@
-package com.example.jardin.list
+package com.example.jardin.ui.list
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -9,13 +8,9 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.jardin.R
-import com.example.jardin.databinding.FragmentDetailBinding
 import com.example.jardin.databinding.FragmentListBinding
-import com.example.jardin.main.MainActivity
-import com.example.jardin.model.Lugar
+import com.example.jardin.ui.main.MainActivity
 import com.example.jardin.model.LugarItem
-import com.google.gson.Gson
 import com.karendamore.metabile.LugaresAdapter
 
 
@@ -39,7 +34,10 @@ class ListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.hideIcon()
-        listViewModel.loadMockLugaresFromJson(context?.assets?.open("lugares.json"))
+
+        /*    listViewModel.loadMockLugaresFromJson(context?.assets?.open("lugares.json"))*/
+
+        listViewModel.getLugaresFromServer()
 
         listViewModel.onLugaresLoaded.observe(viewLifecycleOwner, { result ->
             onLugaresLoadedSubscribe(result)

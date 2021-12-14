@@ -1,4 +1,4 @@
-package com.example.jardin.detail
+package com.example.jardin.ui.detail
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,13 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.NavArgs
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.jardin.R
 import com.example.jardin.databinding.FragmentDetailBinding
-import com.example.jardin.main.MainActivity
+import com.example.jardin.ui.main.MainActivity
 import com.squareup.picasso.Picasso
 
 
@@ -45,7 +42,11 @@ class DetailFragment : Fragment() {
             ubicacionTextView.text=lugar.ubicacion
             temperaturaTextView.text=lugar.temperatura
             otrosLugaresTextView.text=lugar.otros_lugares
-            com.squareup.picasso.Picasso.get().load(lugar.urlimagen).into(pictureImageView)
+            Picasso.get().load(lugar.urlimagen).into(pictureImageView)
+
+            mapButton.setOnClickListener {
+                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment())
+            }
         }
     }
 }

@@ -1,11 +1,11 @@
-package preference
+package com.example.jardin.ui.preference
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.preference.PreferenceFragmentCompat
 import com.example.jardin.R
-import com.example.jardin.main.MainActivity
+import com.example.jardin.ui.main.MainActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
 

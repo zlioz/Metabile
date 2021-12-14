@@ -1,4 +1,4 @@
-package com.example.jardin.detail
+package com.example.jardin.ui.detail
 
 import androidx.lifecycle.ViewModel
 
