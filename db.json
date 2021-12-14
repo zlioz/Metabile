@@ -7,7 +7,9 @@
       "urlimagen": "https://imgs-akamai.mnstatic.com/a9/b0/a9b0cd229baaa4367e2b716804cd5143.jpg",
       "ubicacion": "Cl. 11 #2-43",
       "temperatura": "26.5°c",
-      "otros_lugares": "mirador Cristo Rey, teleferico la Garrucha, cueva el esplandor,cueva los guarachos,las truchas"
+      "otros_lugares": "mirador Cristo Rey, teleferico la Garrucha, cueva el esplandor,cueva los guarachos,las truchas",
+      "Latitud":5.5988511,
+      "Longitud":-75.818949
     },
     {
       "name": "MIRADOR CRISTO REY",
@@ -16,7 +18,9 @@
       "urlimagen": "https://www.livevalledelcauca.com/assets2018/images/cali/monumento-a-cristo-rey-3.jpg",
       "ubicacion": "Vereda la selva",
       "temperatura": "26.3°c",
-      "otros_lugares": "Basilica, teleferico la Garrucha, cueva el esplandor,cueva los guarachos,las truchas"
+      "otros_lugares": "Basilica, teleferico la Garrucha, cueva el esplandor,cueva los guarachos,las truchas",
+      "Latitud":5.6047515,
+      "Longitud":-75.8200618
     },
     {
       "name": "TELEFÉRICO LA GARRUCHA",
@@ -25,7 +29,9 @@
       "urlimagen": "https://live.staticflickr.com/1508/26560912101_b5cb4b5e00_c.jpg",
       "ubicacion": "Cra. 1, Jardín, Antioquia",
       "temperatura": "25.9°c",
-      "otros_lugares": "Basilica, mirador Cristo Rey, cueva el esplandor,cueva los guarachos,las truchas"
+      "otros_lugares": "Basilica, mirador Cristo Rey, cueva el esplandor,cueva los guarachos,las truchas",
+      "Latitud":5.6047514,
+      "Longitud":-75.8266548
     },
     {
       "name": "CUEVA DEL ESPLENDOR",
@@ -34,7 +40,9 @@
       "urlimagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/La_Cueva_del_Esplendor_Jard%C3%ADn%2C_Antioquia.jpg/640px-La_Cueva_del_Esplendor_Jard%C3%ADn%2C_Antioquia.jpg",
       "ubicacion": "Cra. 2a #14-118",
       "temperatura": "26°c",
-      "otros_lugares": "Basilica, mirador Cristo Rey, teleferico la Garrucha, cueva los guarachos,las truchas"
+      "otros_lugares": "Basilica, mirador Cristo Rey, teleferico la Garrucha, cueva los guarachos,las truchas",
+      "Latitud":5.6425455,
+      "Longitud":-75.8101889
     },
     {
       "name": "CUEVA DE LOS GUÁCHAROS",
@@ -43,7 +51,9 @@
       "urlimagen": "https://miviaje.com/wp-content/uploads/2019/11/cascada-guacharos.jpg",
       "ubicacion": "Vereda la salada, Jardín, Antioquia",
       "temperatura": "26°c",
-      "otros_lugares": "Basilica, mirador Cristo Rey, teleferico la Garrucha, cueva el esplandor, las truchas"
+      "otros_lugares": "Basilica, mirador Cristo Rey, teleferico la Garrucha, cueva el esplandor, las truchas",
+      "Latitud":5.6184286,
+      "Longitud":-75.7882565
     },
     {
       "name": "LAS TRUCHERAS",
@@ -52,7 +62,9 @@
       "urlimagen": "https://media-cdn.tripadvisor.com/media/photo-s/0a/33/53/21/fish-nursery.jpg",
       "ubicacion": "Cra. 6 ## 2-76",
       "temperatura": "26.1°c",
-      "otros_lugares": "Basilica, mirador Cristo Rey, teleferico la Garrucha, cueva el esplandor,cueva los guarachos"
+      "otros_lugares": "Basilica, mirador Cristo Rey, teleferico la Garrucha, cueva el esplandor,cueva los guarachos",
+      "Latitud":5.5916204,
+      "Longitud":-75.8103345
     }
   ]
 }
