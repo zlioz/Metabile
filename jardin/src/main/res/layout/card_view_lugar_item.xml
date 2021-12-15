@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp">
+
+
+
+    <ImageView
+        android:id="@+id/picture_image_view"
+        android:layout_width="99dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/basilica"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/name_text_view"
+        style="@style/Texto_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/bas_lica_menor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.329"
+        app:layout_constraintStart_toEndOf="@+id/picture_image_view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/description_text_view"
+        style="@style/Texto_normal"
+        android:layout_width="258dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/la_bas_lica_menor_de_la_inmaculada_concepci_n_es_una_de_las_iglesias_m_s_lindas_de_antioquia_est_construida_en_piedra_labrada_a_mano_su_estilo_es_neog_tico_y_ha_sido_decorada_en_su_interior_con_arcos_recubiertos_en_oro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/picture_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/name_text_view" />
+
+    <TextView
+        android:id="@+id/puntuacion_text_view"
+        style="@style/Texto_subtitulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/puntuaci_n"
+        app:layout_constraintStart_toEndOf="@+id/picture_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/description_text_view" />
+
+    <TextView
+        android:id="@+id/label_puntuacion_text_view"
+        style="@style/Texto_subtitulo2"
+        android:layout_width="60dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="8dp"
+        android:text="Puntuación:"
+        app:layout_constraintStart_toEndOf="@+id/picture_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/description_text_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>
