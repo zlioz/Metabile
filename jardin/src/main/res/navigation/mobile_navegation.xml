@@ -30,5 +30,8 @@
         android:id="@+id/mapsFragment"
         android:name="com.example.jardin.maps.MapsFragment"
         android:label="fragment_maps"
-        tools:layout="@layout/fragment_maps" />
+        tools:layout="@layout/fragment_maps" >
+        <argument android:name="lugar"
+            app:argType="com.example.jardin.model.LugarItem" />
+    </fragment>
 </navigation>

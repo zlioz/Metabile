@@ -18,6 +18,10 @@ data class LugarItem(
     @SerializedName("temperatura")
     val temperatura: String,
     @SerializedName("otros_lugares")
-    val otros_lugares: String
+    val otros_lugares: String,
+    @SerializedName("Latitud")
+    val Latitud: Double,
+    @SerializedName("Longitud")
+    val Longitud: Double
 
 ):Serializable

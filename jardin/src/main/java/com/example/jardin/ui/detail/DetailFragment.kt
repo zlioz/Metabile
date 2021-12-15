@@ -45,7 +45,7 @@ class DetailFragment : Fragment() {
             Picasso.get().load(lugar.urlimagen).into(pictureImageView)
 
             mapButton.setOnClickListener {
-                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment())
+                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment(lugar = lugar))
             }
         }
     }
